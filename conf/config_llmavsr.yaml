@@ -4,6 +4,7 @@ init_models:
 
 llm_mode: rescore
 llm_path: path/to/Llama-2-7b-hf
+prompt_path: path/to/prompt_en.yaml
 
 model: llmavsr_refine
 
