@@ -67,13 +67,11 @@ The available checkpoints are listed below:
 | AVUR-LLM | SMA+AMF | https://pan.baidu.com/s/19pPPllExZwgc7Ylx7slbWw?pwd=hkpn |
 | AVUR-LLM | VUR | https://pan.baidu.com/s/12Kw9qaozKyGVdjRoniIvqg?pwd=pnps |
 
-
 ## Data Preparation
 
-Please follow the official AV-HuBERT preprocessing guide to preprocess the LRS3 dataset.
+Please follow the [preprocessing](https://github.com/facebookresearch/av_hubert/blob/main/avhubert/preparation) guide to preprocess the LRS3 dataset.
 
 ## Inference
-
 
 ### Step 1. Prepare the test audio/video `data.list`
 
@@ -119,7 +117,7 @@ python infer_avsr.py \
 
 ### Step 3. Prepare visual units
 
-Please follow the official AV-HuBERT clustering guide to prepare visual units.
+Please follow the [clustering](https://github.com/facebookresearch/av_hubert/blob/main/avhubert/clustering) guide to prepare visual units.
 
 In our experiments, we use:
 
@@ -150,7 +148,7 @@ python infer_llmavsr.py \
 #### Argument description
 
 - `--gpu`: GPU device ID used for inference.
-- `--config`: Path to the VUR inference configuration file.
+- `--config`: Path to the inference configuration file.
 - `--test_unit_nbest_data`: Path to the input list containing visual units and N-best hypotheses.
-- `--checkpoint`: Path to the VUR checkpoint.
+- `--checkpoint`: Path to the checkpoint.
 - `--result_dir`: Directory used to save VUR decoding results.
