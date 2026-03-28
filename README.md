@@ -28,6 +28,8 @@ Create a fresh virtual environment:
 conda create -n avur_llm python=3.10 -y
 conda activate avur_llm
 conda install conda-forge::sox
+git clone https://github.com/anonymous42277/anonymous001.git
+cd anonymous001
 pip install torch==2.2.2+cu121 torchaudio==2.2.2+cu121 torchvision==0.17.2+cu121 -f https://download.pytorch.org/whl/torch_stable.html
 pip install -r requirements.txt
 cd ssl_models/av_hubert/fairseq
@@ -64,7 +66,7 @@ The available checkpoints are listed below:
 |--------|--------|---------------|
 | Whisper | Whisper-medium | https://pan.baidu.com/s/1bSpqzMYBaPx5v2AiJm8gIw?pwd=6a4h |
 | AVUR-LLM | SMA | https://pan.baidu.com/s/1jbeqk507Z0CMHMsZT88CAw?pwd=ugcc |
-| AVUR-LLM | SMA+AMF | https://pan.baidu.com/s/19pPPllExZwgc7Ylx7slbWw?pwd=hkpn |
+| AVUR-LLM | SMA+AMF | https://pan.baidu.com/s/1-HH_wM0tS8RASXty9Pi-pA?pwd=a39w |
 | AVUR-LLM | VUR | https://pan.baidu.com/s/12Kw9qaozKyGVdjRoniIvqg?pwd=pnps |
 
 ## Data Preparation
