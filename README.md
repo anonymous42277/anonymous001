@@ -2,23 +2,18 @@
 
 This repository provides the inference code and released checkpoints for the paper **"Robust LLM-based Audio-Visual Speech Recognition with Sparse Modality Alignment and Visual Unit-Guided Refinement"**.
 
-We plan to release the full training code after the paper is formally accepted.
+We plan to release the full source code after the paper is formally accepted.
 
 ## To-Do
 
 - [x] Release model checkpoints ✅
 - [x] Release inference code ✅
-- [ ] Release training code
+- [ ] Release full source code (training + inference)
 
 ## Overview
 
 Our framework combines a pretrained **Whisper** audio encoder, an **AV-HuBERT** visual encoder, and a large language model (LLM) for robust audio-visual speech recognition.
 
-The current release includes:
-
-- Inference code for **SMA / SMA+AMF / VUR**
-- Released model checkpoints
-- Instructions for environment setup, dataset preprocessing, and inference
 
 ## Installation
 
@@ -44,7 +39,7 @@ Please download the required pretrained models and place them in the correspondi
 
 1. **AV-HuBERT pretrained model**
 
-   Download the AV-HuBERT pretrained model `large_noise_pt_noise_ft_433h.pt` from the official AV-HuBERT project, and place it at:
+​       Download the AV-HuBERT pretrained model `large_noise_pt_noise_ft_433h.pt` from [here](http://facebookresearch.github.io/av_hubert) and place it at:
 
    ```text
    checkpoints/avhubert/large_noise_pt_noise_ft_433h.pt
