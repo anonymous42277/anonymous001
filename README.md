@@ -39,7 +39,7 @@ Please download the required pretrained models and place them in the correspondi
 
 1. **AV-HuBERT pretrained model**
 
-​       Download the AV-HuBERT pretrained model `large_noise_pt_noise_ft_433h.pt` from [here](http://facebookresearch.github.io/av_hubert) and place it at:
+   Download the AV-HuBERT pretrained model `large_noise_pt_noise_ft_433h.pt` from [here](http://facebookresearch.github.io/av_hubert) and place it at:
 
    ```text
    checkpoints/avhubert/large_noise_pt_noise_ft_433h.pt
