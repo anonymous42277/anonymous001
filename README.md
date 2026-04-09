@@ -121,8 +121,12 @@ In our experiments, we use:
 - intermediate-layer features
 - `K = 2000` clusters
 
-The generated visual units, together with the N-best hypotheses from Step 2, are used as the input to the VUR model.
+The generated visual units, together with the N-best hypotheses from Step 2, are used as the input to the VUR model. The format of `units_nbest.list`:
 
+```json
+{"key": "test/Ip2SQa50uBI/00005", "unit_ids": [1590, 142, 232, 232, 1408, 373, 10, 1725, ...], "candidates": [{"text": "they told our grandchildren probably as well", "s_main": -5.2917890548706055, "wer": 0.7142857142857143}, ...]}
+.....
+```
 ### Step 4. Run inference with the VUR model
 
 After preparing the visual units and N-best hypotheses, run VUR inference:
