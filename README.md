@@ -59,10 +59,10 @@ The available checkpoints are listed below:
 
 | Method | Module | Download Link |
 |--------|--------|---------------|
-| Whisper | Whisper-medium | https://pan.baidu.com/s/1bSpqzMYBaPx5v2AiJm8gIw?pwd=6a4h |
-| AVUR-LLM | SMA | https://pan.baidu.com/s/1jbeqk507Z0CMHMsZT88CAw?pwd=ugcc |
-| AVUR-LLM | SMA+AMF | https://pan.baidu.com/s/1-HH_wM0tS8RASXty9Pi-pA?pwd=a39w |
-| AVUR-LLM | VUR | https://pan.baidu.com/s/12Kw9qaozKyGVdjRoniIvqg?pwd=pnps |
+| Whisper | Whisper-medium | https://pan.baidu.com/s/1s9JjH51VUR8eomLSbjp3WA?pwd=jvst |
+| AVUR-LLM | SMA | https://pan.baidu.com/s/1tXcursGxtkDV-J27ZBsKxw?pwd=trwk |
+| AVUR-LLM | SMA+AMF | https://pan.baidu.com/s/101vTT4-xOHiYEBVo0TDLFg?pwd=ndye |
+| AVUR-LLM | VUR | https://pan.baidu.com/s/1g_k8xY5kYOB3HB84fNvNuQ?pwd=pmyi |
 
 ## Data Preparation
 
